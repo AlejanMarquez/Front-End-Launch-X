@@ -1,0 +1,53 @@
+/*Fondo / Cuerpo*/
+body{
+    background-color: #ede0d4;
+}
+/*Logotipo*/
+.logo{
+    float: right;
+    width: min-content;
+    height: min-content;
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+}
+/*Titulo*/
+h1{
+    text-align: left;
+    color: #2a9d8f;
+}
+/*Imagenes de Pasteles y Decoraciones*/
+.pasteles{
+    float: right;
+    width: 100px;
+    height: 100px;
+}
+/*Barra de navegacion*/
+nav{
+    width: 20%;
+    float: left;
+}
+/*Anclas de la barra de navegacion*/
+nav a{
+    background-color: #ddbea9;
+    border-radius: 10px 0 10px 0;
+    text-align: center;
+    color: #000;
+    margin: 10px;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+}
+/*Seccion*/
+section{
+    float: right;
+    width: 75%;
+    color: #ae2012;
+    border-radius: 5px;
+    box-shadow: 1px 0 4px rgb(0, 0, 0, .2);
+    margin-bottom: 15px;
+    padding: 15px;
+}
+/*Texto de footer*/
+.pieDePagina{
+    text-align: initial;
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/pagina1/css/styles.css">
+    <title>Pasteleria Alien Formulario</title>
+</head>
+<body>
+    <header>
+        <h1>Pasteleria Alien</h1>
+    </header>
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="pastelesPre.html">Pasteles Pre-Hechos</a>
+        <a href="decoraciones.html">Decoraciones</a>
+        <a href="creaTuPropio.html">Crea tu Propio Pastel</a>
+        <a href="pedidosPastelero.html">Pedidos Hechos por Clientes</a>
+    </nav>
+    <form method="GET" action="mi_servidor" target="_blank" autocomplete="off">
+        <section>
+            <label for="pan">Elija el Tipo de Pan que Desee: </label><br/>
+            <input type="radio" name="pan" value="vainilla"/>
+            <label for="vainilla">Vainilla</label>
+            <input type="radio" name="pan" value="chocolatePan">
+            <label for="chocolatePan">Chocolate</label>
+            <input type="radio" name="pan" value="mixto">
+            <label for="mixto">Mixto (Mitad Vainilla y Mitad Chocolate)</label>
+            <br/><br/>
+            <label for="cobertura">Seleccione la Cobertura Deseada: </label><br/>
+            <input type="radio" name="Cobertura" id="merengue">
+            <label for="merengue">Merengue</label>
+            <input type="radio" name="Cobertura" id="chocolate">
+            <label for="chocolate">Chocolate</label>
+            <input type="radio" name="Cobertura" id="fondant">
+            <label for="fondant">Fondant Blanco</label>
+            <br/><br/>
+            <label for="decoracion">Decoracion: </label><br/>
+            <input type="radio" name="decoracion" id="decoracion1">
+            <label for="decoracion1">Fresas</label>
+            <input type="radio" name="decoracion" id="decoracion2">
+            <label for="decoracion2">Duraznos</label>
+            <input type="radio" name="decoracion" id="decoracion3">
+            <label for="decoracion3">Kiwi</label>
+            <input type="radio" name="decoracion" id="decoracion4">
+            <label for="decoracion4">Mixto (Fresas, Duraznos, Kiwi)</label>
+            <br/><br/>
+            <label for="adicional">Adicionales: </label><br/>
+            <input type="checkbox" name="adicional1" id="adicional1">
+            <label for="adicional1">Paquete de 5 Velas $350MXN</label>
+            <input type="checkbox" name="adicional2" id="adicional2">
+            <label for="adicional2">Par de Munecos $250MXN</label>
+            <input type="checkbox" name="adicional3" id="adicional3">
+            <label for="adicional3">Paquete de 4 Velas Magicas $450MXN</label>
+            <br/><br/>
+            <label>Datos de la Persona</label><br/>
+            <label >Nombre Completo:</label>
+            <input type="text" name="nombre" required='true' id="nombre">
+            <label for="nombre"></label>
+            <br/><br/>
+            <label>Numero de Telefono:</label>
+            <input type="text" name="numero" minlength="7" maxlength="10" required='true' id="numero">
+            <label for="numero"></label>
+            <br/><br/>
+            <label>Correo Electronico:</label>
+            <input type="text" name="correoElec" minlength="5" maxlength="50" required='true' id="correo">
+            <label for="correo"></label>
+            <br/><br/>
+            <label>Comentarios Adicionales: </label><br/>
+            <textarea name="comentario" id="comentario" cols="30" rows="10"></textarea>
+            <br/><br/>
+            <input type="submit" value="Enviar"/>
+            <input type="reset" value="Restablecer"/>
+        </section>
+    </form>
+    <section>
+        <footer>
+            <p class="prueba">
+                Nuestro correo: correoprueba@hotmail.com
+                <br/>
+                Numero de contacto: 123-456-7890
+                <br/>
+                Nos ubicamos en: imaginaria, 1234, #12345, colonia: imaginaria, Ciudad de Mexico, Mexico
+                <br/>
+                Horarios de Atencion: 8am - 10pm Todos los Dias, Excepto Dias Festivos de 10am - 6pm
+            </p>
+        </footer>
+    </section>
+</body>
+</html>
