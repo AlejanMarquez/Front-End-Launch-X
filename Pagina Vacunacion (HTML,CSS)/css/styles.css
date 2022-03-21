@@ -1,0 +1,167 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+}
+.cabezero{
+    padding: 2rem 0;
+}
+.cabezero a{
+    color: grey;
+    text-decoration: none;
+}
+.contenedor{
+    width: 100%;
+    margin: 0 auto;
+}
+.contenido-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.vacun{
+    padding: 30px;
+}
+.navegacion ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.navegacion ul li{
+    display: inline-block;
+}
+.navegacion ul li a{
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: all 0.4s linear;
+    border-radius: 5px;
+}
+#hoax{
+    background-color: blue;
+    color: white;
+}
+.textoIni{
+    width: 50%;
+    padding: 20px;
+    text-align: center;
+}
+.logitos{
+    margin: 20px;
+    display: inline-block;
+}
+.medico{
+    float: right;
+}
+.cont{
+    margin: 20px;
+    width: 60%;
+    background-color: beige;
+}
+.cont ul li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    justify-content: space-between;
+    display: inline-block;
+}
+.cont ul li p{
+    margin: 0px;
+    display:  block;
+    display: inline-block;
+    justify-content: space-between;
+}
+.boton{
+    padding: 2px;
+    margin: 2px;
+    color: white;
+    display: block;
+    background-color: blue;
+}
+.contVacu{
+    color: #b7b7a4;
+}
+.vacunas ul li{
+    margin: 50px;
+    display: inline-block;
+    list-style: none;
+}
+.texto{
+    margin: 40px;
+}
+.cuadros ul li{
+    display: inline-block;
+    border-radius: 2px;
+    border-style: groove;
+    list-style: none;
+    width: max-content;
+    padding: 20px;
+    margin: 25px;
+    height: 200px;
+}
+.texto2{
+    margin: 40px;
+    text-align: right;
+}
+.texto2 h3{
+    margin: 20px;
+    padding: 20px;
+}
+.texto2 p{
+    margin: 20px;
+    padding: 20px;
+}
+.imagen2{
+    width: 50%;
+    float: left;
+}
+.textoImg{
+    width: 50%;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.textoImg ul li{
+    display: inline;
+}
+.contactos ul li{
+    border-radius: 2px;
+    border-style: double;
+    display: inline-block;
+    width: 25%;
+    list-style: none;
+}
+.contactos ul li img{
+    align-items: left;
+}
+.contactos ul li h5{
+    text-align: right;
+    padding: 0px 20px;
+}
+.contactos ul li p{
+    text-align: right;
+    padding: 0px 20px;
+}
+.contImg{
+    float: right;
+}
+.botonCont{
+    width: 50%;
+    margin-left: 25%;
+}
+.infoPie{
+    list-style: none;
+}
+.iwannadie ul li{
+    list-style: none;
+}
+.iwannadie ul li a{
+    padding-bottom: 20px;
+    text-decoration: none;
+}
+.pieDePag{
+    background-color: grey;
+    margin: 2rem 0px;
+}
+.textPie ul li{
+    list-style: none;
+    text-decoration: none;
+}
